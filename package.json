@@ -1,9 +1,14 @@
 {
   "name": "boiler_ng1",
   "version": "0.0.1",
+
+  "scripts": {
+    "test":"./node_modules/.bin/karma start"
+  },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "karma": "^2.0.0",
     "run-sequence": "^2.2.0"
   }
 }

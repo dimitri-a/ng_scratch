@@ -1,6 +1,6 @@
 describe('controller test',function(){
 
-    beforeEach('')
+    beforeEach('ngboiler')
 
     it('should be defined',function(){
 
