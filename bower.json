@@ -2,7 +2,7 @@
   "name": "ngboiler",
   "version": "0.0.0",
   "authors": [
-   "dc"
+    "dc"
   ],
   "license": "MIT",
   "ignore": [
@@ -11,6 +11,7 @@
     "app/bower_components"
   ],
   "dependencies": {
-    "angular": "~1.6"
+    "angular": "~1.6",
+    "angular-mocks": "~1.6"
   }
 }

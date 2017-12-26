@@ -1,14 +1,16 @@
 {
   "name": "boiler_ng1",
   "version": "0.0.1",
-
   "scripts": {
-    "test":"./node_modules/.bin/karma start"
+    "test": "./node_modules/.bin/karma start karma.conf.js --log-level debug"
   },
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
+    "jasmine-core": "^2.8.0",
     "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
     "run-sequence": "^2.2.0"
   }
 }
