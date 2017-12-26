@@ -1,0 +1,16 @@
+{
+  "name": "ngboiler",
+  "version": "0.0.0",
+  "authors": [
+   "dc"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.6"
+  }
+}
