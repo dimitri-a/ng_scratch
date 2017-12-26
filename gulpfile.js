@@ -1,12 +1,20 @@
-runSequence = require('run-sequence');
-var connect = require('gulp-connect');
-
-
 var gulp = require('gulp'),
     connect = require('gulp-connect');
 
 gulp.task('connect', function() {
-    connect.server();
+    connect.server({
+        root: 'app',
+        livereload: true
+    });
 });
 
-gulp.task('default', ['connect']);
+gulp.task('js', function () {
+    gulp.src('./app/*.js')
+        .pipe(connect.reload());
+});
+
+gulp.task('watch', function () {
+    gulp.watch(['./app/*.js'], ['js']);
+});
+
+gulp.task('default', ['connect', 'watch']);
